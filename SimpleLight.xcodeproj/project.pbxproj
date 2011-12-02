@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C11B1361488564500588633 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C11B1351488564500588633 /* UIKit.framework */; };
+		5C11B1381488564500588633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C11B1371488564500588633 /* Foundation.framework */; };
+		5C11B13A1488564500588633 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C11B1391488564500588633 /* CoreGraphics.framework */; };
+		5C11B13C1488564500588633 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C11B13B1488564500588633 /* GLKit.framework */; };
+		5C11B13E1488564500588633 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C11B13D1488564500588633 /* OpenGLES.framework */; };
+		5C11B1441488564500588633 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B1421488564500588633 /* InfoPlist.strings */; };
+		5C11B1461488564500588633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11B1451488564500588633 /* main.m */; };
+		5C11B14A1488564500588633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11B1491488564500588633 /* AppDelegate.m */; };
+		5C11B14D1488564500588633 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B14B1488564500588633 /* MainStoryboard.storyboard */; };
+		5C11B14F1488564500588633 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B14E1488564500588633 /* Shader.fsh */; };
+		5C11B1511488564500588633 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B1501488564500588633 /* Shader.vsh */; };
+		5C11B1541488564500588633 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11B1531488564500588633 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C11B1311488564400588633 /* SimpleLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C11B1351488564500588633 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C11B1371488564500588633 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C11B1391488564500588633 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C11B13B1488564500588633 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5C11B13D1488564500588633 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5C11B1411488564500588633 /* SimpleLight-Info.plist */ = {isa = PBXFileReference; path = "SimpleLight-Info.plist"; sourceTree = "<group>"; };
+		5C11B1431488564500588633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C11B1451488564500588633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C11B1471488564500588633 /* SimpleLight-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleLight-Prefix.pch"; sourceTree = "<group>"; };
+		5C11B1481488564500588633 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C11B1491488564500588633 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C11B14C1488564500588633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5C11B14E1488564500588633 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		5C11B1501488564500588633 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		5C11B1521488564500588633 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5C11B1531488564500588633 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C11B12E1488564400588633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C11B1361488564500588633 /* UIKit.framework in Frameworks */,
+				5C11B1381488564500588633 /* Foundation.framework in Frameworks */,
+				5C11B13A1488564500588633 /* CoreGraphics.framework in Frameworks */,
+				5C11B13C1488564500588633 /* GLKit.framework in Frameworks */,
+				5C11B13E1488564500588633 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C11B1261488564400588633 = {
+			isa = PBXGroup;
+			children = (
+				5C11B13F1488564500588633 /* SimpleLight */,
+				5C11B1341488564400588633 /* Frameworks */,
+				5C11B1321488564400588633 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C11B1321488564400588633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C11B1311488564400588633 /* SimpleLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C11B1341488564400588633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C11B1351488564500588633 /* UIKit.framework */,
+				5C11B1371488564500588633 /* Foundation.framework */,
+				5C11B1391488564500588633 /* CoreGraphics.framework */,
+				5C11B13B1488564500588633 /* GLKit.framework */,
+				5C11B13D1488564500588633 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C11B13F1488564500588633 /* SimpleLight */ = {
+			isa = PBXGroup;
+			children = (
+				5C11B1481488564500588633 /* AppDelegate.h */,
+				5C11B1491488564500588633 /* AppDelegate.m */,
+				5C11B14B1488564500588633 /* MainStoryboard.storyboard */,
+				5C11B14E1488564500588633 /* Shader.fsh */,
+				5C11B1501488564500588633 /* Shader.vsh */,
+				5C11B1521488564500588633 /* ViewController.h */,
+				5C11B1531488564500588633 /* ViewController.m */,
+				5C11B1401488564500588633 /* Supporting Files */,
+			);
+			path = SimpleLight;
+			sourceTree = "<group>";
+		};
+		5C11B1401488564500588633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C11B1411488564500588633 /* SimpleLight-Info.plist */,
+				5C11B1421488564500588633 /* InfoPlist.strings */,
+				5C11B1451488564500588633 /* main.m */,
+				5C11B1471488564500588633 /* SimpleLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C11B1301488564400588633 /* SimpleLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C11B1571488564500588633 /* Build configuration list for PBXNativeTarget "SimpleLight" */;
+			buildPhases = (
+				5C11B12D1488564400588633 /* Sources */,
+				5C11B12E1488564400588633 /* Frameworks */,
+				5C11B12F1488564400588633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLight;
+			productName = SimpleLight;
+			productReference = 5C11B1311488564400588633 /* SimpleLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C11B1281488564400588633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Wildbunny Ltd";
+			};
+			buildConfigurationList = 5C11B12B1488564400588633 /* Build configuration list for PBXProject "SimpleLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C11B1261488564400588633;
+			productRefGroup = 5C11B1321488564400588633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C11B1301488564400588633 /* SimpleLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C11B12F1488564400588633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C11B1441488564500588633 /* InfoPlist.strings in Resources */,
+				5C11B14D1488564500588633 /* MainStoryboard.storyboard in Resources */,
+				5C11B14F1488564500588633 /* Shader.fsh in Resources */,
+				5C11B1511488564500588633 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C11B12D1488564400588633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C11B1461488564500588633 /* main.m in Sources */,
+				5C11B14A1488564500588633 /* AppDelegate.m in Sources */,
+				5C11B1541488564500588633 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C11B1421488564500588633 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C11B1431488564500588633 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C11B14B1488564500588633 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C11B14C1488564500588633 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C11B1551488564500588633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5C11B1561488564500588633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C11B1581488564500588633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLight/SimpleLight-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SimpleLight/SimpleLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C11B1591488564500588633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLight/SimpleLight-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SimpleLight/SimpleLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C11B12B1488564400588633 /* Build configuration list for PBXProject "SimpleLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C11B1551488564500588633 /* Debug */,
+				5C11B1561488564500588633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C11B1571488564500588633 /* Build configuration list for PBXNativeTarget "SimpleLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C11B1581488564500588633 /* Debug */,
+				5C11B1591488564500588633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C11B1281488564400588633 /* Project object */;
+}

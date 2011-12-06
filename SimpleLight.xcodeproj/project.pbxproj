@@ -16,8 +16,8 @@
 		5C11B1461488564500588633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11B1451488564500588633 /* main.m */; };
 		5C11B14A1488564500588633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11B1491488564500588633 /* AppDelegate.m */; };
 		5C11B14D1488564500588633 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B14B1488564500588633 /* MainStoryboard.storyboard */; };
-		5C11B14F1488564500588633 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B14E1488564500588633 /* Shader.fsh */; };
-		5C11B1511488564500588633 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B1501488564500588633 /* Shader.vsh */; };
+		5C11B14F1488564500588633 /* simple.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B14E1488564500588633 /* simple.fsh */; };
+		5C11B1511488564500588633 /* simple.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5C11B1501488564500588633 /* simple.vsh */; };
 		5C11B1541488564500588633 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C11B1531488564500588633 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -28,16 +28,16 @@
 		5C11B1391488564500588633 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5C11B13B1488564500588633 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		5C11B13D1488564500588633 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		5C11B1411488564500588633 /* SimpleLight-Info.plist */ = {isa = PBXFileReference; path = "SimpleLight-Info.plist"; sourceTree = "<group>"; };
+		5C11B1411488564500588633 /* SimpleLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLight-Info.plist"; sourceTree = "<group>"; };
 		5C11B1431488564500588633 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C11B1451488564500588633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C11B1471488564500588633 /* SimpleLight-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleLight-Prefix.pch"; sourceTree = "<group>"; };
-		5C11B1481488564500588633 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C11B1471488564500588633 /* SimpleLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleLight-Prefix.pch"; sourceTree = "<group>"; };
+		5C11B1481488564500588633 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C11B1491488564500588633 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5C11B14C1488564500588633 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5C11B14E1488564500588633 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		5C11B1501488564500588633 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		5C11B1521488564500588633 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5C11B14E1488564500588633 /* simple.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = simple.fsh; path = Shaders/simple.fsh; sourceTree = "<group>"; };
+		5C11B1501488564500588633 /* simple.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = simple.vsh; path = Shaders/simple.vsh; sourceTree = "<group>"; };
+		5C11B1521488564500588633 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5C11B1531488564500588633 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +92,7 @@
 				5C11B1481488564500588633 /* AppDelegate.h */,
 				5C11B1491488564500588633 /* AppDelegate.m */,
 				5C11B14B1488564500588633 /* MainStoryboard.storyboard */,
-				5C11B14E1488564500588633 /* Shader.fsh */,
-				5C11B1501488564500588633 /* Shader.vsh */,
+				5C11B15A148C166300588633 /* Shaders */,
 				5C11B1521488564500588633 /* ViewController.h */,
 				5C11B1531488564500588633 /* ViewController.m */,
 				5C11B1401488564500588633 /* Supporting Files */,
@@ -110,6 +109,15 @@
 				5C11B1471488564500588633 /* SimpleLight-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C11B15A148C166300588633 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				5C11B14E1488564500588633 /* simple.fsh */,
+				5C11B1501488564500588633 /* simple.vsh */,
+			);
+			name = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +173,8 @@
 			files = (
 				5C11B1441488564500588633 /* InfoPlist.strings in Resources */,
 				5C11B14D1488564500588633 /* MainStoryboard.storyboard in Resources */,
-				5C11B14F1488564500588633 /* Shader.fsh in Resources */,
-				5C11B1511488564500588633 /* Shader.vsh in Resources */,
+				5C11B14F1488564500588633 /* simple.fsh in Resources */,
+				5C11B1511488564500588633 /* simple.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
